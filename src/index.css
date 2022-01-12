@@ -12,7 +12,13 @@ code {
     monospace;
 }
 
-nav {
+.container {
+  margin: auto;
+  max-width: 600px;
+  background-color: #282d35;
+}
+
+.navbar {
   display: flex;
   align-items: center;
   background-color: #21222a;
@@ -40,4 +46,33 @@ nav {
 .nav-logo {
   height: 30px;
   margin-right: 7px;
+}
+
+.main {
+  padding: 57px 27px;
+  color: #fff;
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-facts {
+  margin-top: 46px;
+  max-width: 450px;
+}
+
+.main-facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main-facts > li::marker {
+  color: #61dafb;
+  font-size: 1.6em;
 }
